@@ -1,0 +1,18 @@
+[package]
+name = "mypi"
+description = "A little tool to help you with your pi"
+version = "0.1.0"
+authors = ["Andrew Graham-Yooll <andrewgy8@gmail.com>"]
+autobins = false
+license = "MIT"
+
+[[bin]]
+name = "mypi"
+path = "src/main.rs"
+
+[dependencies]
+clap = "2"
+term = "0.5"
+
+[build-dependencies]
+clap = "2"
