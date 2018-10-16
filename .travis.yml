@@ -37,8 +37,15 @@ before_deploy:
 
 deploy:
   api_key:
-    # if you see REPLACE_ME here, fix it by following the README of the template
-    secure: REPLACE_ME
+    secure: "NBEWIiX03zjri7UJVhg4qI/fxyA9jXTTXA2sdI6FXBM+g9wnXldnVg5mkuM15OA67zpAif/
+            F8izZEULwoFD0T5ScGz5Wj70XxfyOsQ79su0iaaJr6txDL395+GImI/fEzBQN64ThHJQECY/
+            HkaBJSfAIyZSqiCQ2L2Soy6WSqfkIRPWelpXtr9+NZmrc2NW6cUII7vv5M8xedHcQQAd++
+            FmeGxjrgvKn9I8vPTw9fIeoKPBQIXrcy3S8/w+BGG41Zpqe1/4bR/0mwBfCm0RmbwdnZ4Fbd3yfJWs+/
+            tSQwBXw7JQCdVhdeUx1XpjKu1Q9/UzDUmLR9Cjzy/m3Mu69BdnjGIP8X+N0ixBUWYp/WgXQS7
+            iofINGAezYx/CDb//0C3+lh3dw97fAo0Pf4blsqkS8xNucuSGSb5r3PMo2JZ7n/eOdnUtjoVA8odzzpP5
+            g+AHOzmf5AxOzXg51ORHYbFTL0nRIncwKIlTwT5xLpSUP+/CKepsAtPD3UPRqLF4T82buKKa7Kvja1gP
+            c3FTMfcrSQ1nw9QLQhvp5YoOw7mifD+45LlbZaAgGPEPIEeYocd3klkOwBF3WYuD6RYuWLv9GvM
+            cb8KZDBXEfmevYZmGZRHC8sS+ntDeh49qV4QCKZSdNaoHuZ5v+0k4h6RBziRr+DxPy3jZCmQXu0lyp4k="
   file_glob: true
   file: $CRATE_NAME-$TRAVIS_TAG-$TARGET.*
   on:
